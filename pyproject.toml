@@ -1,0 +1,16 @@
+[project]
+name = "validador-cli"
+version = "0.1.0"
+description = "Herramienta de línea de comandos para validar emails y URLs"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+validador = "validador.main:run"
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+addopts = "--color=yes --cov=validador --cov-report=term-missing"
+testpaths = ["tests"]

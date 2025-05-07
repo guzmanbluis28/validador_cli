@@ -1,0 +1,2 @@
+[console_scripts]
+validador = validador.main:run

@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+tests/test_utils.py
+validador/__init__.py
+validador/main.py
+validador/utils.py
+validador_cli.egg-info/PKG-INFO
+validador_cli.egg-info/SOURCES.txt
+validador_cli.egg-info/dependency_links.txt
+validador_cli.egg-info/entry_points.txt
+validador_cli.egg-info/top_level.txt

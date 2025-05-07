@@ -1,0 +1,9 @@
+[run]
+branch = True
+source = validador
+
+[report]
+omit =
+    tests/*
+    */__init__.py
+show_missing = True
